@@ -87,6 +87,7 @@ test('test click plus and less in a row ', () => {
 
 // Extra test that passes after updating the counter
 // prevCount + 2
+/*
 test('one click on counter increases counter by two', () => {
   render (<Counter />);
   const plusButton = screen.getByTestId('plus');
@@ -94,21 +95,4 @@ test('one click on counter increases counter by two', () => {
   fireEvent.click(plusButton);
   expect(count.textContent).toBe('2');
 });
-
-// Playing some with numbers:
-test('one click on counter increases counter by two v2', () => {
-  render (<Counter />);
-  const plusButton = screen.getByTestId('plus');
-  const count = screen.getByTestId('countId');
-  fireEvent.click(plusButton);
-  const a = count.textContent.valueOf(3);
-  fireEvent.click(plusButton);
-  const b = count.textContent.valueOf(2);
-  fireEvent.click(plusButton);
-  const c = count.textContent
-  const result = a + b + c;
-  const result2 = Math.round(a, b);
-  expect(count.textContent).toBe('3');
-  expect(result).toEqual('123');
-  expect(result2).toEqual(1);
-});
+*/
