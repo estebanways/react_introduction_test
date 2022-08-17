@@ -13,7 +13,7 @@ function Counter() {
   return (
     <div>
       <p data-testid="countId">{count}</p>
-      <button data-testid="plus" onClick={() => setCount((prevCount) => prevCount + 2)}>+</button>
+      <button data-testid="plus" onClick={() => setCount((prevCount) => prevCount + 1)}>+</button>
       <button data-testid="less" onClick={() => lessclick()}>-</button>
     </div>
   );
